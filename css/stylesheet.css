@@ -1,6 +1,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	background-color: #fafafa;
+	font-size: 20px;
 }
 
 header{
@@ -84,6 +85,7 @@ a:focus{
 code{
 	display: inline-block !important;
 	padding: 15px !important;
+	font-size: 16px !important;
 }
 
 pre{
@@ -106,4 +108,8 @@ pre{
 
 .sectionnav a:focus{
 	text-decoration: none;
+}
+
+h3{
+	margin-top: 48px;
 }
