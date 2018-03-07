@@ -30,6 +30,16 @@ header h1{
 .side-nav h1{
 	font-size: 4rem !important;
 }
+
+.side-nav h1 a{
+	color: #000;
+	text-decoration: none;
+}
+
+a:focus{
+	text-decoration: none;
+}
+
 .side-nav a:hover{
 	text-decoration: none;
 }
