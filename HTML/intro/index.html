@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>ICC 565</title>
+
+	<!-- stylesheet links -->
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../css/flickity.css">
+	<link rel="stylesheet" type="text/css" href="../../css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="../../css/hamburgers.css">
+	<link rel="stylesheet" type="text/css" href="../../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../../css/ocean.css">
+
+
+	<!-- script srcs -->
+	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../../js/flickity.pkgd.min.js"></script>
+	<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../../js/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="../../js/handlebars-v4.0.11.js"></script>
+	<script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../../js/scrolling-nav.js"></script>
+	<script type="text/javascript" src="../../js/materialize.min.js"></script>
+	<script type="text/javascript" src="../../js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	      rel="stylesheet">
+
+	<!-- fonts & other resources -->
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,800" rel="stylesheet">
+</head>
+<body>
+
+	<ul id="slide-out" class="side-nav">
+	    <li>
+	    	<div class="user-view">
+	    		<h1>ICC 565</h1>
+	    	</div>
+	    </li>
+	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#HTMLsub"  href="#!">HTML</a></li>
+	    <ul id="HTMLsub" class="submenu">
+	    	<li><a class="active" href="#">Intro to HTML</a></li>
+	    	<li><a href="#">Tables</a></li>
+	    </ul>
+	   
+	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#CSSsub"  href="#!">CSS</a></li>
+	    <ul id="CSSsub" class="submenu collapse">
+	    	<li><a href="#">Intro to CSS</a></li>
+	    	<li><a href="#">More CSS using span</a></li>
+	    	<li><a href="#">CSS Page Construction</a></li>
+	    	<li><a href="#">Clearing the float</a></li>
+	    	<li><a href="#">Building a navigation bar</a></li>
+	    </ul>
+
+	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#Bootstrapsub"  href="#!">Bootstrap</a></li>
+	    <ul id="Bootstrapsub" class="submenu collapse">
+	    	<li><a href="#">Bootstrap 101</a></li>
+	    	<li><a href="#">Bootstrap Part 2</a></li>
+	    	<li><a href="#">Bootstrap Part 3</a></li>
+	    	<li><a href="#">Bootstrap Part 4</a></li>
+	    </ul>
+
+	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#Designsub"  href="#!">Design</a></li>
+	    <ul id="Designsub" class="submenu collapse">
+	    	<li><a href="#">Design for the web</a></li>
+	    	<li><a href="#">Flowcharts and wireframes</a></li>
+	    	<li><a href="#">From Sketch to Bootstrap</a></li>
+	    </ul>
+
+	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#FTPsub"  href="#!">FTP</a></li>
+	    <ul id="FTPsub" class="submenu collapse">
+	    	<li><a href="#">Accessing a server</a></li>
+	    </ul>
+
+	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#PHPsub"  href="#!">PHP</a></li>
+	    <ul id="PHPsub" class="submenu collapse">
+	    	<li><a href="#">Building a template using PHP</a></li>
+	    	<li><a href="#">Fixing title element with PHP</a></li>
+	    </ul>
+
+	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#Finalsub"  href="#!">Final Project</a></li>
+	    <ul id="Finalsub" class="submenu collapse">
+	    	<li><a href="#">Final Project Info</a></li>
+	    	<li><a href="#">Final Website Checklist</a></li>
+	    </ul>
+	</ul>
+	 
+	<header class="bgred">
+		<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+		<h1 class="align-bottom">Intro to HTML</h1>
+	</header>
+
+	<div class="container">
+
+		<div class="sectionnav">
+			Contents
+			<ul>
+				<li><a class="page-scroll" href="#whatishtml">What is HTML?</a></li>
+				<li><a class="page-scroll" href="#htmlbreakdown">What is in HTML?</a></li>
+				<li><a class="page-scroll" href="#codesample">What does HTML look like?</a></li>
+				<li><a class="page-scroll" href="#W3C">What is the W3C?</a></li>
+				<li><a class="page-scroll" href="#projectstart">Setting up a project</a></li>
+				<li><a class="page-scroll" href="#texteditors">Choosing a text editor</a></li>
+			</ul>
+		</div>
+		<h3 id="whatishtml">What is HTML?</h3>
+		<p>HTML, or Hypertext Markup Language, includes all the information about the content of a webpage in a text document.</p>
+		<p>HTML has three principle types of markup: elements, attributes, and values.</p>
+
+		<h3 id="htmlbreakdown">What is in HTML?</h3>
+		<p>A webpage is made up of three principle components:</p>
+		<ol>
+			<li>Text content - the actual headlines and paragraphs that appear on the page.</li>
+			<li>References - References to more complex content like links, images, and perhaps Flash animations.</li>
+			<li>Markup - A set of instructions to the browser that describe how the content and references should be displayed.</li>
+		</ol>
+
+		<h3 id="codesample">What does HTML look like?</h3>
+		<p>Below is a code sample.</p>
+		<div class="col-md-5">
+		<pre>
+			<code class="html">
+&lt;div&gt;
+	&lt;h1&gt;This is a header&lt;/h1&gt;
+	&lt;p&gt;This is a paragraph&lt;/p&gt;
+	&lt;img src=&quot;link/to/your/img.jpg&quot;&gt;
+&lt;/div&gt;
+			</code>
+		</pre>
+		</div>
+
+		<h3 id="W3C">What is the W3C?</h3>
+		<p>W3C stands for the World Wide Web Consortium. The W3C is an international community where member oganizations, a full-time staff, and the public work together to develop Web standards. The stated goal of the W3C is to "lead the Web to its full potential."</p>
+		<p>The goal of this course, and one of the goals of the W3C, is to develop the practice of separating style from content and structure in your Web pages.</p>
+		<p>You should use HTML to define the structure of your pages and <a href="#">CSS</a> to define the style.</p>
+
+		<h3 id="projectstart">Setting up a new project</h3>
+		<ol>
+			<li>Create semester folder "ICC565"</li>
+			<li>Create project folders inside</li>
+			<li>Consider using Dropbox/Google Drive to sync folders between home and school</li>
+		</ol>
+
+		<h3 id="texteditors"> Choosing a text editors</h3>
+		<ol>
+			<li>Suggested: <a href="https://www.sublimetext.com/">Sublime Text</a></li>
+			<li>Alternatively for PC: <a href="http://notepad-plus-plus.org/">Notepad++</a></li>
+		</ol>
+		
+	</div>
+	<script type="text/javascript" src="../../js/scripts.js"></script>
+</body>
+</html>
