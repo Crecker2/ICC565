@@ -23,6 +23,9 @@ header h1{
 	display: table-cell;
 }
 
+.active{
+	color: #43A047 !important;
+}
 
 .side-nav h1{
 	font-size: 4rem !important;
@@ -60,6 +63,37 @@ header h1{
 	color: #fff;
 }
 
+.container{
+	padding: 15px 0px;
+}
+
 .subject-box{
 	height: 300px;
+}
+
+code{
+	display: inline-block !important;
+	padding: 15px !important;
+}
+
+pre{
+	display: inline-block;
+}
+
+.container a{
+	color: #1E88E5;
+}
+
+.sectionnav{
+	border-left: solid 5px #2E7D32;
+	padding-left: 15px;
+}
+.sectionnav a{
+	color: #2E7D32;
+	font-size: 18px;
+
+}
+
+.sectionnav a:focus{
+	text-decoration: none;
 }
