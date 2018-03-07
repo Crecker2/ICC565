@@ -87,7 +87,7 @@ code{
 }
 
 pre{
-	display: inline-block;
+	display: block;
 }
 
 .container a{
