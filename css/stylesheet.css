@@ -1,6 +1,6 @@
 body{
 	font-family: 'Open Sans', sans-serif;
-	background-color: #fafafa;
+	background-color: #efefef;
 	font-size: 20px;
 }
 
@@ -40,7 +40,6 @@ header h1{
 a:focus{
 	text-decoration: none;
 }
-
 .side-nav a:hover{
 	text-decoration: none;
 }
@@ -94,6 +93,26 @@ pre{
 
 .container a{
 	color: #1E88E5;
+}
+
+.sections{
+	width: 100%;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.sections li{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.sections li:hover{
+	border-bottom: solid 3px #237D32;
+	cursor: pointer;
+}
+
+.sections .active{
+	border-bottom: solid 4px #237D32 !important;
 }
 
 .sectionnav{
