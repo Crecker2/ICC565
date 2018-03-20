@@ -15,3 +15,10 @@ window.sr = ScrollReveal();
 // 	});
 
 // }
+
+$('.sections li').click(function(){
+	$('.sections li').removeClass('active');
+	$(this).addClass('active');
+	$('.content').slideUp();
+	$($(this).data('toggle')).slideDown();
+});
