@@ -43,13 +43,13 @@
 	    		<h1><a href="../../index.html">ICC 565</a></h1>
 	    	</div>
 	    </li>
-	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#HTMLsub"  href="#!">HTML</a></li>
+	    <li><a class="mainheader waves-effect borderred" data-toggle="collapse" data-target="#HTMLsub"  href="#!">HTML</a></li>
 	    <ul id="HTMLsub" class="submenu">
 	    	<li><a class="active" href="#">Intro to HTML</a></li>
 	    	<li><a href="#">Tables</a></li>
 	    </ul>
 	   
-	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#CSSsub"  href="#!">CSS</a></li>
+	    <li><a class="mainheader waves-effect borderblue" data-toggle="collapse" data-target="#CSSsub"  href="#!">CSS</a></li>
 	    <ul id="CSSsub" class="submenu collapse">
 	    	<li><a href="#">Intro to CSS</a></li>
 	    	<li><a href="#">More CSS using span</a></li>
@@ -58,7 +58,7 @@
 	    	<li><a href="#">Building a navigation bar</a></li>
 	    </ul>
 
-	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#Bootstrapsub"  href="#!">Bootstrap</a></li>
+	    <li><a class="mainheader waves-effect borderorange" data-toggle="collapse" data-target="#Bootstrapsub"  href="#!">Bootstrap</a></li>
 	    <ul id="Bootstrapsub" class="submenu collapse">
 	    	<li><a href="#">Bootstrap 101</a></li>
 	    	<li><a href="#">Bootstrap Part 2</a></li>
@@ -66,25 +66,25 @@
 	    	<li><a href="#">Bootstrap Part 4</a></li>
 	    </ul>
 
-	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#Designsub"  href="#!">Design</a></li>
+	    <li><a class="mainheader waves-effect borderpurple" data-toggle="collapse" data-target="#Designsub"  href="#!">Design</a></li>
 	    <ul id="Designsub" class="submenu collapse">
 	    	<li><a href="#">Design for the web</a></li>
 	    	<li><a href="#">Flowcharts and wireframes</a></li>
 	    	<li><a href="#">From Sketch to Bootstrap</a></li>
 	    </ul>
 
-	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#FTPsub"  href="#!">FTP</a></li>
+	    <li><a class="mainheader waves-effect borderyellow" data-toggle="collapse" data-target="#FTPsub"  href="#!">FTP</a></li>
 	    <ul id="FTPsub" class="submenu collapse">
 	    	<li><a href="#">Accessing a server</a></li>
 	    </ul>
 
-	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#PHPsub"  href="#!">PHP</a></li>
+	    <li><a class="mainheader waves-effect bordercyan" data-toggle="collapse" data-target="#PHPsub"  href="#!">PHP</a></li>
 	    <ul id="PHPsub" class="submenu collapse">
 	    	<li><a href="#">Building a template using PHP</a></li>
 	    	<li><a href="#">Fixing title element with PHP</a></li>
 	    </ul>
 
-	    <li><a class="mainheader waves-effect" data-toggle="collapse" data-target="#Finalsub"  href="#!">Final Project</a></li>
+	    <li><a class="mainheader waves-effect bordergreen" data-toggle="collapse" data-target="#Finalsub"  href="#!">Final Project</a></li>
 	    <ul id="Finalsub" class="submenu collapse">
 	    	<li><a href="#">Final Project Info</a></li>
 	    	<li><a href="#">Final Website Checklist</a></li>
@@ -98,10 +98,14 @@
 
 	<ul class="sections">
 		<li class="active" data-toggle="#text">Text</li>
-		<li>Videos</li>
-		<li>Quizzes</li>
+		<li data-toggle="#videos">Videos</li>
 		
 	</ul>
+	
+	<div class="topnav">
+		ICC 565
+	</div>
+	
 	<div class="container content" id="text">
 
 		<div class="sectionnav">
@@ -160,11 +164,74 @@
 		</ol>
 		
 	</div>
-	<div class="container content" id="videos">
-		
+	<div class="container content hide" id="videos">
+		<h1>Video Headline</h1>
+		<div class="videowrapper">
+			<iframe src="https://www.youtube.com/embed/5dmQ3QWpy1Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+
+		<h1>Video Headline</h1>
+		<div class="videowrapper">
+			<iframe src="https://www.youtube.com/embed/eBG7P-K-r1Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+
+		<h1>Video Headline</h1>
+		<div class="videowrapper">
+			<iframe src="https://www.youtube.com/embed/I2sRc3j7IU0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+
+		<h1>Video Headline</h1>
+		<div class="videowrapper">
+			<iframe src="https://www.youtube.com/embed/n75NvVHQV4M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
 	</div>
-	<div class="container content" id="quizzes">
-		
+	<div class="container content hide" id="quizzes">
+		<h1>Quiz</h1>
+		<div class="quiz-card card">
+			<h3 class="card-header">Question 1</h3>
+			<div class="card-block question_1">
+				<p>HTML is...</p>
+				<ol type="A">
+					<li>A scripting language</li>
+					<li>Fun</li>
+					<li>Boring</li>
+					<li>A type of food</li>
+				</ol>
+				<fieldset class="question_1">
+					<div>
+						<button class="answer" value="A" name="question_1">
+							A
+						</button>
+						<button class="answer" value="B" name="question_1">
+							B
+						</button>
+						<button class="answer" value="C" name="question_1">
+							C
+						</button>
+						<button class="answer" value="D" name="question_1">
+							D
+						</button>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+	</div>
+	<div class="container navigationcontainer">
+		<div>
+			<button class="navbuttons prevbutton">
+				<i class="material-icons">arrow_backward</i>
+			</button>
+		</div>
+		<div>
+			<button class="dropdown-button navbuttons nextbutton" data-activates="nextdropdown">
+				<i class="material-icons">arrow_forward</i>
+			</button>
+			<ul id="nextdropdown" class="dropdown-content">
+				<li class="movetoquiz"><a href="#">To quiz</a></li>
+				<li><a href="">To next section</a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
 	</div>
 	<script type="text/javascript" src="../../js/scripts.js"></script>
 </body>
