@@ -17,15 +17,23 @@ $(document).ready(function(){
 	// 	});
 
 	// }
-
-	// tab selector
-	$('.sections li').click(function(){
-		$('.sections li').removeClass('active');
-		$(this).addClass('active');
-
-		$('.content').addClass('hide');
-		$($(this).data('toggle')).removeClass('hide');
+	$('.videodropdown').click(function(){
+		if($(this).data('toggle')){
+			$('#videos').slideUp();
+			$(this).data('toggle',false);
+		} else{
+			$('#videos').slideDown();
+			$(this).data('toggle',true);
+		}
 	});
+	// tab selector
+// 	$('.sections li').click(function(){
+// 		$('.sections li').removeClass('active');
+// 		$(this).addClass('active');
+
+// 		$('.content').addClass('hide');
+// 		$($(this).data('toggle')).removeClass('hide');
+// 	});
 	// activation for next button dropdown
 	$('.dropdown-button').dropdown();
 	$('.movetoquiz').click(function(){
