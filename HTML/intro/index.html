@@ -99,12 +99,6 @@
 		<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 		<h1 class="align-bottom">Intro to HTML</h1>
 	</header>
-
-	<ul class="sections">
-		<li class="active" data-toggle="#text">Text</li>
-		<li data-toggle="#videos">Videos</li>
-		
-	</ul>
 	
 	<div class="container content" id="text">
 
@@ -164,7 +158,12 @@
 		</ol>
 		
 	</div>
-	<div class="container content hide" id="videos">
+	
+	<ul class="sections">
+		<li class="videodropdown" data-toggle='false'>Videos</li>
+	</ul>
+
+	<div class="container content dontshow" id="videos">
 		<h1>Video Headline</h1>
 		<div class="videowrapper">
 			<iframe src="https://www.youtube.com/embed/5dmQ3QWpy1Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -185,7 +184,7 @@
 			<iframe src="https://www.youtube.com/embed/n75NvVHQV4M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 	</div>
-	<div class="container content hide" id="quizzes">
+	<div class="container content dontshow" id="quizzes">
 		<h1>Quiz</h1>
 		<div class="quiz-card card">
 			<h3 class="card-header">Question 1</h3>
