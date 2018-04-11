@@ -35,15 +35,19 @@ $(document).ready(function(){
 // 		$($(this).data('toggle')).removeClass('hide');
 // 	});
 	// activation for next button dropdown
-	$('.dropdown-button').dropdown();
-	$('.movetoquiz').click(function(){
-		$('.content').addClass('hide');
-		$('.sections').hide();
-
-		$('#quizzes').removeClass('hide');
-
-		$('#nextdropdown .movetoquiz').remove()
-
+	
+	$('.nextbutton').click(function(e){
+		if(!$(this).data('clicked')){
+			e.preventDefault();
+			$(this).data('clicked',true);
+			$('.nextbutton p').remove();
+			$('.nextbutton').append('<i class="material-icons">arrow_forward</i>');
+			$('.content').hide();
+			$('.sections').hide();
+			$('#quizzes').show();
+		} else{
+			$(this).parent().attr('href',$(this).data('link'));
+		}
 	});
 	//quiz functionality
 	var answers = {
