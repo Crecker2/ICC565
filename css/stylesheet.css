@@ -248,6 +248,10 @@ h3{
 	float: right;
 }
 
+.nextbutton p{
+	padding: 6px;
+}
+
 .fixed-action-btn{
 	position: relative !important;
 }
