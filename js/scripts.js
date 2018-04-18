@@ -18,12 +18,12 @@ $(document).ready(function(){
 
 	// }
 	$('.videodropdown').click(function(){
-		if($(this).data('toggle')){
-			$('#videos').slideUp();
-			$(this).data('toggle',false);
+		if($(this).data('istoggled')){
+			$($(this).data('toggle')).slideUp();
+			$(this).data('istoggled',false);
 		} else{
-			$('#videos').slideDown();
-			$(this).data('toggle',true);
+			$($(this).data('toggle')).slideDown();
+			$(this).data('istoggled',true);
 		}
 	});
 	// tab selector
