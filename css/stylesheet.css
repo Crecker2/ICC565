@@ -14,6 +14,11 @@ body{
 	padding: 11px;
 	padding-left: 35px;
 }
+
+.topnav p{
+	margin-top: -6px;
+}
+
 header{
 	height: 200px;
 	padding: 35px;
@@ -23,6 +28,16 @@ header{
 	display: table !important;
 	color: #fff;
 	margin-bottom: 15px;
+}
+
+@media(max-width: 518px){
+	header{
+		height: 250px;
+	}
+}
+
+header .button-collapse{
+	position: absolute;
 }
 
 header .material-icons{
