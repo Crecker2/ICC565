@@ -46,7 +46,7 @@ header .material-icons{
 }
 
 header h1{
-	display: table-cell;
+	display: block;
 }
 
 .active{
