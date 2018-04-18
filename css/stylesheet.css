@@ -37,7 +37,9 @@ header h1{
 .active{
 	color: #43A047 !important;
 }
-
+.side-nav{
+	padding-top: 32px;
+}
 .side-nav h1{
 	font-size: 4rem !important;
 }
