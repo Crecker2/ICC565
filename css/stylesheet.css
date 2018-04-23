@@ -79,31 +79,31 @@ a:focus{
 }
 
 .borderred{
-	border-left: 3px solid #F44336;
+	border-left: 7px solid #F44336;
 }
 
 .borderblue{
-	border-left: 3px solid #2196F3;
+	border-left: 7px solid #2196F3;
 }
 
 .bordergreen{
-	border-left: 3px solid #4CAF50;
+	border-left: 7px solid #4CAF50;
 }
 
 .borderorange{
-	border-left: 3px solid #FF9800;
+	border-left: 7px solid #FF9800;
 }
 
 .borderpurple{
-	border-left: 3px solid #673AB7;
+	border-left: 7px solid #673AB7;
 }
 
 .bordercyan{
-	border-left: 3px solid #00BCD4;
+	border-left: 7px solid #00BCD4;
 }
 
 .borderyellow{
-	border-left: 3px solid #FBC02D;
+	border-left: 7px solid #FBC02D;
 }
 .submenu{
 	padding-left: 15px !important;
